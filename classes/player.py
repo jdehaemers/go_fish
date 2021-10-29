@@ -65,3 +65,13 @@ class Human(Player):
 
     def select_rank(self):
         return input ('Indicate which rank to target: ')
+
+class Smart(Player):
+    def __init__(self, name):
+        super().__init__(name)
+    
+    def select_target(self):
+        pass
+
+    def select_rank(self):
+        pass
